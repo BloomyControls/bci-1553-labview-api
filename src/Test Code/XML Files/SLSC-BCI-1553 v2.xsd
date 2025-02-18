@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="SLSC-BCI-1553">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="RIOResource" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+				<xs:element name="Bus" minOccurs="0" maxOccurs="8">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string"></xs:element>
+							<xs:element name="Description" type="xs:string"></xs:element>
+							<xs:element name="BusChannel" type="xs:int"></xs:element>
+							<xs:element name="Mode" type="xs:string"></xs:element>
+							<!-- 
+							**************************************************************
+							Remote Terminal
+							**************************************************************
+							 -->
+							<xs:element name="RemoteTerminal" minOccurs="0" maxOccurs="2">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="xs:string"></xs:element>
+										<xs:element name="Description" type="xs:string"></xs:element>
+										<xs:element name="RTAddress" type="RTType"></xs:element>
+										<xs:element name="RTSubAddress" minOccurs="0" maxOccurs="31">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Name" type="xs:string"></xs:element>
+													<xs:element name="Description" type="xs:string"></xs:element>
+													<xs:element name="SubAddress" type="SAType"></xs:element>
+													<xs:element name="ModeCmd" type="xs:unsignedShort"></xs:element>
+													<xs:element name="WordCount" type="xs:unsignedShort"></xs:element>
+													<xs:element name="MessageType" type="RTMsgType"></xs:element>
+													<xs:element name="DefaultData">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="DataElement" type="Datum" minOccurs="1" maxOccurs="32"></xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="RTChannel" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"></xs:element>
+																<xs:element name="Description" type="xs:string"></xs:element>
+																<xs:element name="DataType" type="DataTypeSel"></xs:element>
+																<xs:element name="StartWord" type="xs:int"></xs:element>
+																<xs:element name="BitLength" type="xs:int"></xs:element>
+																<xs:element name="BitOffset" type="xs:int"></xs:element>
+																<xs:element name="ColorID" type="xs:unsignedLong"></xs:element>
+																<xs:element name="DefaultValue" type="xs:decimal"></xs:element>
+																<xs:element name="ScaleFactor" type="xs:decimal"></xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<!-- 
+							***************************************************************
+							Bus Monitor
+							***************************************************************
+							 -->
+							<xs:element name="BusMonitor" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="xs:string"></xs:element>
+										<xs:element name="Description" type="xs:string"></xs:element>
+										<xs:element name="Filter" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Name" type="xs:string"></xs:element>
+													<xs:element name="Description" type="xs:string"></xs:element>
+													<xs:element name="RemoteTerminal" type="RTType"></xs:element>
+													<xs:element name="SubAddress" type="SAType"></xs:element>
+													<xs:element name="MessageType" type="BMMsgType"></xs:element>
+													<xs:element name="TransmitBus" type="XmitBus"></xs:element>
+													<xs:element name="ModeCodePresent" type="xs:boolean"></xs:element>
+													<xs:element name="RT-RTPresent" type="xs:boolean"></xs:element>
+													<xs:element name="DefaultData">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="DataElement" type="Datum" minOccurs="1" maxOccurs="32"></xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="BMChannel" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"></xs:element>
+																<xs:element name="Description" type="xs:string"></xs:element>
+																<xs:element name="DataType" type="DataTypeSel"></xs:element>
+																<xs:element name="StartWord" type="xs:int"></xs:element>
+																<xs:element name="BitLength" type="xs:int"></xs:element>
+																<xs:element name="BitOffset" type="xs:int"></xs:element>
+																<xs:element name="ColorID" type="xs:unsignedLong"></xs:element>
+																<xs:element name="ScaleFactor" type="xs:decimal"></xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<!-- 
+							****************************************************************
+							Bus Controller
+							****************************************************************
+							 -->
+							 <xs:element name="BusController" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="xs:string"></xs:element>
+										<xs:element name="Description" type="xs:string"></xs:element>
+										<xs:element name="Execution" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="SelectedFrame" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="MajorFrames" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MajorFrame" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"></xs:element>
+																<xs:element name="Description" type="xs:string"></xs:element>
+																<xs:element name="MinorFrameRate" type="xs:unsignedShort"></xs:element>
+																<xs:element name="MajorSequence">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="SelectedFrame" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="MinorFrames" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MinorFrame" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"></xs:element>
+																<xs:element name="Description" type="xs:string"></xs:element>
+																<xs:element name="MinorSequence">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="SelectedFrame" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="BCMessages" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="BCMessage" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"></xs:element>
+																<xs:element name="Description" type="xs:string"></xs:element>
+																<xs:element name="TransmitRemoteTerminal" type="RTType"></xs:element>
+																<xs:element name="TransmitSubAddress" type="SAType"></xs:element>
+																<xs:element name="ReceiveRemoteTerminal" type="RTType"></xs:element>
+																<xs:element name="ReceiveSubAddress" type="SAType"></xs:element>
+																<xs:element name="MessageType" type="BCMsgType"></xs:element>
+																<xs:element name="TransmitBus" type="XmitBus"></xs:element>
+																<xs:element name="IntermessageDelay" type="xs:unsignedShort"></xs:element>
+																<xs:element name="ModeCmd" type="xs:unsignedShort"></xs:element>
+																<xs:element name="WordCount" type="xs:unsignedShort"></xs:element>
+																<xs:element name="Asynchronous" type="xs:boolean"></xs:element>
+																<xs:element name="DefaultData">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="DataElement" type="Datum" minOccurs="1" maxOccurs="32"></xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="BCMessageChannel" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="Name" type="xs:string"></xs:element>
+																			<xs:element name="Description" type="xs:string"></xs:element>
+																			<xs:element name="DataType" type="DataTypeSel"></xs:element>
+																			<xs:element name="StartWord" type="xs:int"></xs:element>
+																			<xs:element name="BitLength" type="xs:int"></xs:element>
+																			<xs:element name="BitOffset" type="xs:int"></xs:element>
+																			<xs:element name="ColorID" type="xs:unsignedLong"></xs:element>
+																			<xs:element name="DefaultValue" type="xs:decimal"></xs:element>
+																			<xs:element name="ScaleFactor" type="xs:decimal"></xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							 </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="RTType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BROADCAST"></xs:enumeration>
+			<xs:enumeration value="RT 1"></xs:enumeration>
+			<xs:enumeration value="RT 2"></xs:enumeration>
+			<xs:enumeration value="RT 3"></xs:enumeration>
+			<xs:enumeration value="RT 4"></xs:enumeration>
+			<xs:enumeration value="RT 5"></xs:enumeration>
+			<xs:enumeration value="RT 6"></xs:enumeration>
+			<xs:enumeration value="RT 7"></xs:enumeration>
+			<xs:enumeration value="RT 8"></xs:enumeration>
+			<xs:enumeration value="RT 9"></xs:enumeration>
+			<xs:enumeration value="RT 10"></xs:enumeration>
+			<xs:enumeration value="RT 11"></xs:enumeration>
+			<xs:enumeration value="RT 12"></xs:enumeration>
+			<xs:enumeration value="RT 13"></xs:enumeration>
+			<xs:enumeration value="RT 14"></xs:enumeration>
+			<xs:enumeration value="RT 15"></xs:enumeration>
+			<xs:enumeration value="RT 16"></xs:enumeration>
+			<xs:enumeration value="RT 17"></xs:enumeration>
+			<xs:enumeration value="RT 18"></xs:enumeration>
+			<xs:enumeration value="RT 19"></xs:enumeration>
+			<xs:enumeration value="RT 20"></xs:enumeration>
+			<xs:enumeration value="RT 21"></xs:enumeration>
+			<xs:enumeration value="RT 22"></xs:enumeration>
+			<xs:enumeration value="RT 23"></xs:enumeration>
+			<xs:enumeration value="RT 24"></xs:enumeration>
+			<xs:enumeration value="RT 25"></xs:enumeration>
+			<xs:enumeration value="RT 26"></xs:enumeration>
+			<xs:enumeration value="RT 27"></xs:enumeration>
+			<xs:enumeration value="RT 28"></xs:enumeration>
+			<xs:enumeration value="RT 29"></xs:enumeration>
+			<xs:enumeration value="RT 30"></xs:enumeration>
+			<xs:enumeration value="None"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="SAType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="SA 1"></xs:enumeration>
+			<xs:enumeration value="SA 2"></xs:enumeration>
+			<xs:enumeration value="SA 3"></xs:enumeration>
+			<xs:enumeration value="SA 4"></xs:enumeration>
+			<xs:enumeration value="SA 5"></xs:enumeration>
+			<xs:enumeration value="SA 6"></xs:enumeration>
+			<xs:enumeration value="SA 7"></xs:enumeration>
+			<xs:enumeration value="SA 8"></xs:enumeration>
+			<xs:enumeration value="SA 9"></xs:enumeration>
+			<xs:enumeration value="SA 10"></xs:enumeration>
+			<xs:enumeration value="SA 11"></xs:enumeration>
+			<xs:enumeration value="SA 12"></xs:enumeration>
+			<xs:enumeration value="SA 13"></xs:enumeration>
+			<xs:enumeration value="SA 14"></xs:enumeration>
+			<xs:enumeration value="SA 15"></xs:enumeration>
+			<xs:enumeration value="SA 16"></xs:enumeration>
+			<xs:enumeration value="SA 17"></xs:enumeration>
+			<xs:enumeration value="SA 18"></xs:enumeration>
+			<xs:enumeration value="SA 19"></xs:enumeration>
+			<xs:enumeration value="SA 20"></xs:enumeration>
+			<xs:enumeration value="SA 21"></xs:enumeration>
+			<xs:enumeration value="SA 22"></xs:enumeration>
+			<xs:enumeration value="SA 23"></xs:enumeration>
+			<xs:enumeration value="SA 24"></xs:enumeration>
+			<xs:enumeration value="SA 25"></xs:enumeration>
+			<xs:enumeration value="SA 26"></xs:enumeration>
+			<xs:enumeration value="SA 27"></xs:enumeration>
+			<xs:enumeration value="SA 28"></xs:enumeration>
+			<xs:enumeration value="SA 29"></xs:enumeration>
+			<xs:enumeration value="SA 30"></xs:enumeration>
+			<xs:enumeration value="None"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="RTMsgType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Transmit"></xs:enumeration>
+			<xs:enumeration value="Receive"></xs:enumeration>
+			<xs:enumeration value="Mode Code - Transmit"></xs:enumeration>
+			<xs:enumeration value="Mode Code - Receive"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="BMMsgType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Transmit"></xs:enumeration>
+			<xs:enumeration value="Receive"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="BCMsgType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Transmit"></xs:enumeration>
+			<xs:enumeration value="Receive"></xs:enumeration>
+			<xs:enumeration value="RT to RT"></xs:enumeration>
+			<xs:enumeration value="Mode Command - Transmit"></xs:enumeration>
+			<xs:enumeration value="Mode Command - Receive"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="XmitBus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Bus A"></xs:enumeration>
+			<xs:enumeration value="Bus B"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+			
+	<xs:simpleType name="DataTypeSel">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="U8"></xs:enumeration>
+			<xs:enumeration value="U16"></xs:enumeration>
+			<xs:enumeration value="U32"></xs:enumeration>
+			<xs:enumeration value="U64"></xs:enumeration>
+			<xs:enumeration value="I8"></xs:enumeration>
+			<xs:enumeration value="I16"></xs:enumeration>
+			<xs:enumeration value="I32"></xs:enumeration>
+			<xs:enumeration value="I64"></xs:enumeration>
+			<xs:enumeration value="Single"></xs:enumeration>
+			<xs:enumeration value="Double"></xs:enumeration>
+			<xs:enumeration value="Custom - Unsigned"></xs:enumeration>
+			<xs:enumeration value="Custom - Signed"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="Datum">
+		<xs:sequence>
+			<xs:element name="Index" type="xs:int"></xs:element>
+			<xs:element name="Data" type="xs:unsignedShort"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>
+
+		

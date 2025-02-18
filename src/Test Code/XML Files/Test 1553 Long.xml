@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<SLSC-BCI-1553 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<RIOResource>RIO0</RIOResource>
+	<Bus>
+		<Name>Bus 0</Name>
+		<Description>Test Bus - BC</Description>
+		<BusChannel>0</BusChannel>
+		<Mode>Bus Controller</Mode>
+		<BusController>
+			<Name>TestBC</Name>
+			<Description>Test BC</Description>
+			<Execution>
+				<SelectedFrame>Test Major Frame</SelectedFrame>
+			</Execution>
+			<MajorFrames>
+				<MajorFrame>
+					<Name>Test Major Frame</Name>
+					<Description>Major frame test</Description>
+					<MinorFrameRate>50</MinorFrameRate>
+					<MajorSequence>
+						<SelectedFrame>Minor Frame Test0</SelectedFrame>
+					</MajorSequence>
+				</MajorFrame>
+			</MajorFrames>
+			<MinorFrames>
+				<MinorFrame>
+					<Name>Minor Frame Test0</Name>
+					<Description>Minor frame test</Description>
+					<MinorSequence>
+						<SelectedFrame>Message 0</SelectedFrame>
+						<SelectedFrame>Message 1</SelectedFrame>
+					</MinorSequence>
+				</MinorFrame>
+			</MinorFrames>
+			<BCMessages>
+				<BCMessage>
+					<Name>Message 0</Name>
+					<Description>Test Message</Description>
+					<TransmitRemoteTerminal>RT 1</TransmitRemoteTerminal>
+					<TransmitSubAddress>SA 1</TransmitSubAddress>
+					<ReceiveRemoteTerminal>None</ReceiveRemoteTerminal>
+					<ReceiveSubAddress>None</ReceiveSubAddress>
+					<MessageType>Transmit</MessageType>
+					<TransmitBus>Bus A</TransmitBus>
+					<IntermessageDelay>1000</IntermessageDelay>
+					<ModeCmd>0</ModeCmd>
+					<WordCount>32</WordCount>
+					<Asynchronous>false</Asynchronous>
+					<BCMessageChannel>
+						<Name>Param0</Name>
+						<Description>Test Param</Description>
+						<DataType>U16</DataType>
+						<StartWord>0</StartWord>
+						<BitLength>16</BitLength>
+						<BitOffset>0</BitOffset>
+						<ColorID>0</ColorID>
+						<DefaultValue>10</DefaultValue>
+						<ScaleFactor>1</ScaleFactor>
+					</BCMessageChannel>
+				</BCMessage>
+				<BCMessage>
+					<Name>Message 1</Name>
+					<Description>Test Message</Description>
+					<TransmitRemoteTerminal>None</TransmitRemoteTerminal>
+					<TransmitSubAddress>None</TransmitSubAddress>
+					<ReceiveRemoteTerminal>RT 2</ReceiveRemoteTerminal>
+					<ReceiveSubAddress>SA 1</ReceiveSubAddress>
+					<MessageType>Receive</MessageType>
+					<TransmitBus>Bus A</TransmitBus>
+					<IntermessageDelay>1000</IntermessageDelay>
+					<ModeCmd>0</ModeCmd>
+					<WordCount>32</WordCount>
+					<Asynchronous>false</Asynchronous>
+					<BCMessageChannel>
+						<Name>Param1</Name>
+						<Description>Test Param</Description>
+						<DataType>U16</DataType>
+						<StartWord>0</StartWord>
+						<BitLength>16</BitLength>
+						<BitOffset>0</BitOffset>
+						<ColorID>0</ColorID>
+						<DefaultValue>10</DefaultValue>
+						<ScaleFactor>1</ScaleFactor>
+					</BCMessageChannel>
+				</BCMessage>
+				<BCMessage>
+					<Name>Message 2</Name>
+					<Description>Test Message</Description>
+					<TransmitRemoteTerminal>RT 3</TransmitRemoteTerminal>
+					<TransmitSubAddress>SA 1</TransmitSubAddress>
+					<ReceiveRemoteTerminal>RT 4</ReceiveRemoteTerminal>
+					<ReceiveSubAddress>SA 1</ReceiveSubAddress>
+					<MessageType>RT to RT</MessageType>
+					<TransmitBus>Bus A</TransmitBus>
+					<IntermessageDelay>1000</IntermessageDelay>
+					<ModeCmd>0</ModeCmd>
+					<WordCount>32</WordCount>
+					<Asynchronous>false</Asynchronous>
+					<BCMessageChannel>
+						<Name>Param2</Name>
+						<Description>Test Param</Description>
+						<DataType>U16</DataType>
+						<StartWord>0</StartWord>
+						<BitLength>16</BitLength>
+						<BitOffset>0</BitOffset>
+						<ColorID>0</ColorID>
+						<DefaultValue>10</DefaultValue>
+						<ScaleFactor>1</ScaleFactor>
+					</BCMessageChannel>
+				</BCMessage>
+				<BCMessage>
+					<Name>Message 3</Name>
+					<Description>Test Message</Description>
+					<TransmitRemoteTerminal>RT 5</TransmitRemoteTerminal>
+					<TransmitSubAddress>None</TransmitSubAddress>
+					<ReceiveRemoteTerminal>None</ReceiveRemoteTerminal>
+					<ReceiveSubAddress>None</ReceiveSubAddress>
+					<MessageType>Mode Command - Transmit</MessageType>
+					<TransmitBus>Bus A</TransmitBus>
+					<IntermessageDelay>1000</IntermessageDelay>
+					<ModeCmd>16</ModeCmd>
+					<WordCount>1</WordCount>
+					<Asynchronous>false</Asynchronous>
+					<BCMessageChannel>
+						<Name>Param3</Name>
+						<Description>Test Param</Description>
+						<DataType>U16</DataType>
+						<StartWord>0</StartWord>
+						<BitLength>16</BitLength>
+						<BitOffset>0</BitOffset>
+						<ColorID>0</ColorID>
+						<DefaultValue>10</DefaultValue>
+						<ScaleFactor>1</ScaleFactor>
+					</BCMessageChannel>
+				</BCMessage>
+				<BCMessage>
+					<Name>Message 4</Name>
+					<Description>Test Message</Description>
+					<TransmitRemoteTerminal>None</TransmitRemoteTerminal>
+					<TransmitSubAddress>None</TransmitSubAddress>
+					<ReceiveRemoteTerminal>RT 6</ReceiveRemoteTerminal>
+					<ReceiveSubAddress>None</ReceiveSubAddress>
+					<MessageType>Mode Command - Receive</MessageType>
+					<TransmitBus>Bus A</TransmitBus>
+					<IntermessageDelay>1000</IntermessageDelay>
+					<ModeCmd>17</ModeCmd>
+					<WordCount>1</WordCount>
+					<Asynchronous>false</Asynchronous>
+					<BCMessageChannel>
+						<Name>Param4</Name>
+						<Description>Test Param</Description>
+						<DataType>U16</DataType>
+						<StartWord>0</StartWord>
+						<BitLength>16</BitLength>
+						<BitOffset>0</BitOffset>
+						<ColorID>0</ColorID>
+						<DefaultValue>10</DefaultValue>
+						<ScaleFactor>1</ScaleFactor>
+					</BCMessageChannel>
+				</BCMessage>
+			</BCMessages>
+		</BusController>
+	</Bus>
+	<Bus>
+		<Name>Bus 1</Name>
+		<Description>Test Bus - RT</Description>
+		<BusChannel>1</BusChannel>
+		<Mode>Remote Terminal</Mode>
+		<RemoteTerminal>
+			<Name>Test Remote Terminal</Name>
+			<Description>Test RT</Description>
+			<RTAddress>RT 2</RTAddress>
+			<RTSubAddress>
+				<Name>Test SA0</Name>
+				<Description>Test SA</Description>
+				<SubAddress>SA 1</SubAddress>
+				<ModeCmd>0</ModeCmd>
+				<WordCount>2</WordCount>
+				<MessageType>Receive</MessageType>
+				<RTChannel>
+					<Name>Param5</Name>
+					<Description>Test Param 1</Description>
+					<DataType>U16</DataType>
+					<StartWord>0</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<DefaultValue>20</DefaultValue>
+					<ScaleFactor>1</ScaleFactor>
+				</RTChannel>
+				<RTChannel>
+					<Name>Param6</Name>
+					<Description>Test Param 1</Description>
+					<DataType>U16</DataType>
+					<StartWord>1</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<DefaultValue>30</DefaultValue>
+					<ScaleFactor>1</ScaleFactor>
+				</RTChannel>
+			</RTSubAddress>
+			<RTSubAddress>
+				<Name>Test SA1</Name>
+				<Description>Test SA</Description>
+				<SubAddress>SA 2</SubAddress>
+				<ModeCmd>0</ModeCmd>
+				<WordCount>2</WordCount>
+				<MessageType>Transmit</MessageType>
+				<RTChannel>
+					<Name>Param7</Name>
+					<Description>Test Param 1</Description>
+					<DataType>U16</DataType>
+					<StartWord>0</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<DefaultValue>40</DefaultValue>
+					<ScaleFactor>1</ScaleFactor>
+				</RTChannel>
+				<RTChannel>
+					<Name>Param8</Name>
+					<Description>Test Param 1</Description>
+					<DataType>U16</DataType>
+					<StartWord>1</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<DefaultValue>50</DefaultValue>
+					<ScaleFactor>1</ScaleFactor>
+				</RTChannel>
+			</RTSubAddress>
+			<RTSubAddress>
+				<Name>Test SA1</Name>
+				<Description>Test SA</Description>
+				<SubAddress>SA 2</SubAddress>
+				<ModeCmd>0</ModeCmd>
+				<WordCount>2</WordCount>
+				<MessageType>Transmit</MessageType>
+				<RTChannel>
+					<Name>Param7</Name>
+					<Description>Test Param 1</Description>
+					<DataType>U16</DataType>
+					<StartWord>0</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<DefaultValue>60</DefaultValue>
+					<ScaleFactor>1</ScaleFactor>
+				</RTChannel>
+				<RTChannel>
+					<Name>Param8</Name>
+					<Description>Test Param 1</Description>
+					<DataType>U16</DataType>
+					<StartWord>1</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<DefaultValue>70</DefaultValue>
+					<ScaleFactor>1</ScaleFactor>
+				</RTChannel>
+			</RTSubAddress>
+		</RemoteTerminal>
+	</Bus>
+	<Bus>
+		<Name>Bus 2</Name>
+		<Description>Test Bus - BM</Description>
+		<BusChannel>2</BusChannel>
+		<Mode>Bus Monitor</Mode>
+		<BusMonitor>
+			<Name>Test BM</Name>
+			<Description>Test bus monitor</Description>
+			<Filter>
+				<Name>Test Filter 0</Name>
+				<Description>Test filter0</Description>
+				<RemoteTerminal>RT 1</RemoteTerminal>
+				<SubAddress>SA 1</SubAddress>
+				<MessageType>Transmit</MessageType>
+				<TransmitBus>Bus A</TransmitBus>
+				<ModeCodePresent>false</ModeCodePresent>
+				<RT-RTPresent>false</RT-RTPresent>
+				<BMChannel>
+					<Name>Param9</Name>
+					<Description>Test Param 2</Description>
+					<DataType>U16</DataType>
+					<StartWord>0</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<ScaleFactor>1</ScaleFactor>
+				</BMChannel>
+				<BMChannel>
+					<Name>Param10</Name>
+					<Description>Test Param 2</Description>
+					<DataType>U16</DataType>
+					<StartWord>1</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<ScaleFactor>1</ScaleFactor>
+				</BMChannel>
+			</Filter>
+			<Filter>
+				<Name>Test Filter 1</Name>
+				<Description>Test filter0</Description>
+				<RemoteTerminal>RT 2</RemoteTerminal>
+				<SubAddress>SA 1</SubAddress>
+				<MessageType>Receive</MessageType>
+				<TransmitBus>Bus A</TransmitBus>
+				<ModeCodePresent>false</ModeCodePresent>
+				<RT-RTPresent>false</RT-RTPresent>
+				<BMChannel>
+					<Name>Param11</Name>
+					<Description>Test Param 2</Description>
+					<DataType>U16</DataType>
+					<StartWord>0</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<ScaleFactor>1</ScaleFactor>
+				</BMChannel>
+				<BMChannel>
+					<Name>Param12</Name>
+					<Description>Test Param 2</Description>
+					<DataType>U16</DataType>
+					<StartWord>1</StartWord>
+					<BitLength>16</BitLength>
+					<BitOffset>0</BitOffset>
+					<ColorID>0</ColorID>
+					<ScaleFactor>1</ScaleFactor>
+				</BMChannel>
+			</Filter>
+		</BusMonitor>
+	</Bus>		
+</SLSC-BCI-1553>
