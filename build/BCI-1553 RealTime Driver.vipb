@@ -1,15 +1,15 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-04-13 13:24:18" Modified_Date="2020-04-17 12:30:38" Creator="JamesV" Comments="" ID="6f2aa1fe93889aaf783310870b8db2b5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2018-04-13 13:24:18" Modified_Date="2025-02-19 12:35:02" Creator="JamesV" Comments="" ID="c87288ad9f10a4e26ec06a33522a1569">
   <Library_General_Settings>
-    <Package_File_Name>Bloomy_lib_BCI_1553_Driver</Package_File_Name>
-    <Library_Version>0.1.0.21</Library_Version>
+    <Package_File_Name>Bloomy_BCI_1553_API</Package_File_Name>
+    <Library_Version>0.1.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
     <Company_Name>Bloomy</Company_Name>
     <Library_Summary/>
-    <Library_License/>
-    <Package_LabVIEW_Version>16.0</Package_LabVIEW_Version>
-    <Community_Edition>false</Community_Edition>
+    <Library_License>BSD 3-Clause License</Library_License>
+    <Package_LabVIEW_Version>20.0</Package_LabVIEW_Version>
+    <Community_Edition>true</Community_Edition>
     <Package_Icon>00000CFC002900000012000000020000000D01000000000100000000000A000000080000000000240024002900000012000000020000000D00B2B2B900010000000000100000001000000002002300000000000000000023002900000012000000020000000D00FCFCFD00010000000000100000001000000002002200010001000100010022002900000012000000020000000D00B2B2B900010000000000100000001000000002000000240024002400240000002900000012000000020000000D0080808A00010000000000100000001000000002000100230023002300230001001D00000C1800000C00000200020022002200180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000000000000000FFFFFF000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFF000000000000000000FFFFFF000000000000000000FFFFFF000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C00006C00006C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C00006C00006C0000CCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFF6C00006C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF</Package_Icon>
     <Product_Name>BCI-1553 Driver</Product_Name>
     <Was_Built>true</Was_Built>
@@ -33,21 +33,21 @@
 &lt;b&gt;IMPORTANT: THIS API REQUIRES THE BCI-1553 MODULE(s) TO BE IN THE ADVANCED OPERATING MODE.&lt;/b&gt;
 
 Please refer to the installed example code for more information on how to setup the FPGA and RealTime to support this API. Please see operating mode documentation for more information on changing the operating mode of your module.</Description>
-      <Copyright/>
-      <Packager>J Ryan Vallieres</Packager>
-      <URL>www.bloomy.com</URL>
+      <Copyright>Copyright (c) 2025, Bloomy Controls, Inc.</Copyright>
+      <Packager>Bloomy</Packager>
+      <URL>https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/1553b-c-series-module</URL>
       <Release_Notes>Refactored several of the initialization clusters to remove various things that the end users/designers shouldn't have to interact with during use.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\Bloomy\BCI-1553 Driver\RealTime</Path>
+        <Path>&lt;vi.lib&gt;\Bloomy\BCI-1553 API</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\examples\Bloomy\BCI-1553 API</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -60,7 +60,7 @@ Please refer to the installed example code for more information on how to setup 
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\Bloomy\BCI-1553 API</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -112,104 +112,20 @@ Please refer to the installed example code for more information on how to setup 
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Documentation/User Manuals</Path>
-        <Destination>4</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/1553 Component</Path>
+        <Path>src</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Windows/1553 Session</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/1553 SubComponent</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/Bus Controller</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/Bus Monitor</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/Dependencies</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/Filters</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/Frames &amp; Messages</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/Remote Terminal</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Windows/BCI-1553 API.lvlib</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>FPGA/FPGA - RT Interface/Private</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>FPGA/FPGA - RT Interface/Public</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>FPGA/FPGA - RT Interface/BCI-1553 RT Interface.lvlib</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>FPGA/FPGA - RT Interface</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Documentation/Examples</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Documentation/Examples/RealTime</Path>
+        <Path>examples/RealTime</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>docs</Path>
+        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -224,88 +140,37 @@ Please refer to the installed example code for more information on how to setup 
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>FPGA/Development - ADV Only/BCI-1553-ADV/ExcludeFromExport/FPGA Bitfiles</Path>
+        <Path>build</Path>
       </Exclusions>
       <Exclusions>
-        <Path>FPGA/Development - ADV Only/BCI-1553-ADV/ExcludeFromExport/Test Code</Path>
+        <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
-        <Path>FPGA/Development - ADV Only/BCI-1553-ADV/ExcludeFromExport/BCI-1553-ADV Development Mode.lvproj</Path>
+        <Path>LICENSE</Path>
       </Exclusions>
       <Exclusions>
-        <Path>FPGA/Development - ADV Only/BCI-1553-ADV/ExcludeFromExport/BCI-1553-ADV Release Mode.lvproj</Path>
+        <Path>README.md</Path>
       </Exclusions>
       <Exclusions>
-        <Path>FPGA/Debug</Path>
+        <Path>src/RealTime/Utilities</Path>
       </Exclusions>
       <Exclusions>
-        <Path>FPGA/Development - ADV Only</Path>
+        <Path>src/RealTime/Unit Tests</Path>
       </Exclusions>
       <Exclusions>
-        <Path>FPGA/Development - BC Only</Path>
+        <Path>src/RealTime/Test Code</Path>
       </Exclusions>
-      <Exclusions>
-        <Path>FPGA/Development - BM Only</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>FPGA/Development - RT Only</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>FPGA/EEPROM Tools</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Installers</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Prototyping</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>RealTime</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>VI Package</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Windows/Unit Tests</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Windows/Test Code</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Windows/Utilities</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Windows/BCI-1553 Driver.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Windows/1553 Session/XML Parsing</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Windows/1553 Session/Initialize by XML.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/Examples/Loopback</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/Examples/Bus Monitor</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/Examples/Bus Controller</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/Examples/Advanced</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/Examples/Remote Terminal</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/User Manuals/Old Docs</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/User Manuals/BCI-1553 Software Manual.docx</Path>
-      </Exclusions>
+      <Compile_Exclusions>
+        <Path>examples/RealTime</Path>
+      </Compile_Exclusions>
+      <Place_Folder_Contents>
+        <Path>src</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>docs</Path>
+      </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -360,6 +225,7 @@ Please refer to the installed example code for more information on how to setup 
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -417,7 +283,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\Windows</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>394C189BEBC1216EFF45BB7A61A43E75</GUID>
+      <GUID>ED6AB715A45624647EDB3E9A8F8972AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -564,7 +430,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\Windows\Dependencies\FPGA Interface</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FA40BD01284E72C1B97149A4149B009</GUID>
+      <GUID>98BB8ECC4B1263404C064A5587D658FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -596,7 +462,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -610,7 +476,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Configure.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -624,7 +490,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Start.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -638,7 +504,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Stop.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -652,7 +518,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Close.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -666,7 +532,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Inhibit Bus A.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Inhibit Bus A.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -680,7 +546,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Inhibit Bus B.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Inhibit Bus B.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -694,7 +560,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read SubComponents.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read SubComponents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -708,7 +574,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Write Raw Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Write Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -722,7 +588,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read Raw Async Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Raw Async Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -736,7 +602,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read Scaled Async Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Scaled Async Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -792,7 +658,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Write Scaled Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Write Scaled Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -806,7 +672,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read Scaled Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Scaled Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -820,10 +686,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read Raw Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F26521F30E04597D4105F465FEA821EA</GUID>
+      <GUID>C669F5337B95DDB695611587869C3D61</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -855,7 +721,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Read Raw Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -869,7 +735,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -883,7 +749,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Configure.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -897,7 +763,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Start.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -911,7 +777,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Read Components.vi</Path>
+        <Path>..\src\RealTime\1553 Session\Read Components.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -925,7 +791,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Write Components.vi</Path>
+        <Path>..\src\RealTime\1553 Session\Write Components.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -939,7 +805,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Read Scaled Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Scaled Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -953,7 +819,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Write Scaled Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Write Scaled Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -967,7 +833,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Write Raw Data.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Write Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -981,7 +847,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Stop.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -995,10 +861,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Session\Close.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6DD8AFF8E7D8A0335D2279CD58D00C81</GUID>
+      <GUID>55AF82E4CB6681F3678F80E2524E2E2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1030,7 +896,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Read SubComponent Parameter - Scaled.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Parameter - Scaled.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1044,7 +910,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Inhibit Bus B.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Inhibit Bus B.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1058,7 +924,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Inhibit Bus A.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Inhibit Bus A.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1072,7 +938,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Generate Configuration.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Generate Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1086,7 +952,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Start SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Start SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1100,7 +966,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Stop SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Stop SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1114,7 +980,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Read SubComponent Data - Scaled.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Data - Scaled.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1128,7 +994,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Read SubComponent Data - Raw.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Data - Raw.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1142,7 +1008,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Write SubComponent Scaled Data.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Write SubComponent Scaled Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1156,7 +1022,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Write SubComponent Raw Data.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Write SubComponent Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1170,7 +1036,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Retrieve SubComponent Parameter.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Retrieve SubComponent Parameter.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1184,7 +1050,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Retrieve SubComponent Data.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Retrieve SubComponent Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1198,10 +1064,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 SubComponent\Read SubComponent Parameter - Raw.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Parameter - Raw.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FAA2C50FAC08AA21CCC3CD9B128EC297</GUID>
+      <GUID>331047130E491AF7E819B6C413FA7217</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1233,7 +1099,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1247,7 +1113,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Start SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Start SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1261,7 +1127,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Stop SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Stop SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1275,7 +1141,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Generate Configuration.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Generate Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1289,7 +1155,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Read Async Scaled Data.vi</Path>
+        <Path>..\src\RealTime\Bus Controller\Read Async Scaled Data.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1303,7 +1169,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Send Async Message.vi</Path>
+        <Path>..\src\RealTime\Bus Controller\Send Async Message.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1317,10 +1183,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Controller\Read Async Raw Data.vi</Path>
+        <Path>..\src\RealTime\Bus Controller\Read Async Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FAE3441ED8E3B4BAA7FD20B73F6DA071</GUID>
+      <GUID>2657722987E766767A2EF66B646E188A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1352,7 +1218,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1366,7 +1232,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Clear Filters.vi</Path>
+        <Path>..\src\RealTime\Bus Monitor\Clear Filters.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1380,7 +1246,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Generate Configuration.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Generate Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1394,7 +1260,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Start SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Start SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1408,7 +1274,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Stop SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Stop SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1422,7 +1288,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Add Filters.vi</Path>
+        <Path>..\src\RealTime\Bus Monitor\Add Filters.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1436,7 +1302,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Remove Filters.vi</Path>
+        <Path>..\src\RealTime\Bus Monitor\Remove Filters.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1450,7 +1316,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Get All Filters.vi</Path>
+        <Path>..\src\RealTime\Bus Monitor\Get All Filters.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1464,7 +1330,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Format Bus Raw Log.vi</Path>
+        <Path>..\src\RealTime\Bus Monitor\Format Bus Raw Log.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1478,7 +1344,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Read Raw Bus Monitor Log.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Raw Bus Monitor Log.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1492,7 +1358,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Read Bus Monitor Log.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Bus Monitor Log.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1506,7 +1372,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Read SubComponent Data - Scaled.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Data - Scaled.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1520,7 +1386,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Read SubComponent Data - Raw.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Data - Raw.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1534,10 +1400,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Bus Monitor\Retrieve SubComponent Data.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Retrieve SubComponent Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA168CF9B7B09E1528FC5202752A66A1</GUID>
+      <GUID>3C7A7B1CCCF5E999D6D6FFAA41BBDC47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1642,7 +1508,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\Windows\Frames &amp; Messages\Async RT-RT Message</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41695F4D4B72C2852B7FD60F97AD3EB4</GUID>
+      <GUID>7A1AED06ABDC68788CA92851470779D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1674,7 +1540,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1688,7 +1554,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Generate Configuration.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Generate Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1702,7 +1568,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Start SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Start SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1716,7 +1582,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Stop SubComponent.vi</Path>
+        <Path>..\src\RealTime\1553 SubComponent\Stop SubComponent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1730,7 +1596,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Data Sent.vi</Path>
+        <Path>..\src\RealTime\Remote Terminal\Data Sent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1744,7 +1610,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Inhibit Bus A.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Inhibit Bus A.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1758,7 +1624,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Inhibit Bus B.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Inhibit Bus B.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1772,7 +1638,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Clear Data Available Flag.vi</Path>
+        <Path>..\src\RealTime\Remote Terminal\Clear Data Available Flag.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1786,7 +1652,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Clear Data Sent Flag.vi</Path>
+        <Path>..\src\RealTime\Remote Terminal\Clear Data Sent Flag.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1800,7 +1666,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\New Data Available.vi</Path>
+        <Path>..\src\RealTime\Remote Terminal\New Data Available.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1814,10 +1680,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Remote Terminal\Read RT1.vi</Path>
+        <Path>..\src\RealTime\Remote Terminal\Read RT1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F8A459BEFD4432577A2E76E973D5B8B</GUID>
+      <GUID>4FD97736F86803D96792D7012168850F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1849,7 +1715,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Async Message\Initialize Async.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Async Message\Initialize Async.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1863,10 +1729,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Async Message\Update Parameter Value.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Async Message\Update Parameter Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9CBC01B4929FB401412B68843C1C3BB</GUID>
+      <GUID>17DE3370FAC29E5B65C9A784252F69BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1898,10 +1764,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Async RT-RT Message\Initialize Async RT-RT.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Async RT-RT Message\Initialize Async RT-RT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA84D598B276A00EA9A39CF911044DF4</GUID>
+      <GUID>26AA2CFD2D4DACACDE8ECEC3BD320D9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1933,7 +1799,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1947,7 +1813,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Add Messages.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Add Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1961,7 +1827,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Add Minor Frames.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Add Minor Frames.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1975,7 +1841,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Remove Messages.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Remove Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1989,7 +1855,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Update Schedule.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Update Schedule.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2003,7 +1869,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Get All Minor Frames.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Get All Minor Frames.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2017,7 +1883,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Remove Minor Frames.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Remove Minor Frames.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2031,10 +1897,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Major Frame\Get All Messages.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Get All Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8768EB93ECF0BD049EB183FFED3023D5</GUID>
+      <GUID>407216E2D9C5F4C486780BFBF42E5882</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2066,10 +1932,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Message\Initialize Message.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Message\Initialize Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA4F96329B3EFEE1994AAE9B04277FF3</GUID>
+      <GUID>9B943E60FEC47E758CF3B283CAC8EC37</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2101,7 +1967,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Minor Frame\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2115,10 +1981,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\Minor Frame\Update Schedule.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Update Schedule.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7A1B3FE41733A3507DCAE3FB9DAB7CD</GUID>
+      <GUID>C2E3CEC191495862B49338FF3A518E6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2150,10 +2016,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Frames &amp; Messages\RT-RT Message\Initialize RT-RT Message.vi</Path>
+        <Path>..\src\RealTime\Frames &amp; Messages\RT-RT Message\Initialize RT-RT Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3C9CAACAB1D1DF03C4FDE189D9B3E4F</GUID>
+      <GUID>244881E825A638EC283EE3E8A8DA0796</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2185,10 +2051,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Filters\Filter\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F47D09CE396C48DF980C9C540B33CE97</GUID>
+      <GUID>2630CDEE98940414F8FB5C1CC0ABF134</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2217,13 +2083,13 @@ Please refer to the installed example code for more information on how to setup 
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\FPGA\FPGA - RT Interface\Public\BCI-1553 RealTime Interface.vi</Path>
+        <Path>..\src\FPGA\Public\BCI-1553 RealTime Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4906725AD50E6213DEB2BC5CFE8E0C8</GUID>
+      <GUID>1DB60B2613E53F31E29C90C834F157EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2255,10 +2121,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Send Asynchronous Message.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Send Asynchronous Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BA1B3E47D31E161DF02886E8F10F704</GUID>
+      <GUID>06280D1EF3B7ABD0B92A3B3C0D14D353</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2290,7 +2156,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Rx Data Available.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Rx Data Available.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2304,7 +2170,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Tx Data Sent.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Tx Data Sent.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2318,7 +2184,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Clear Rx Data Available.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Clear Rx Data Available.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2332,10 +2198,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Clear Tx Data Sent.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Clear Tx Data Sent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D699BD268DEA059DE18AD35A70E5EF32</GUID>
+      <GUID>C4D660EF3AB63F896309C980DF6D40B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2367,7 +2233,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read Bus Monitor Log.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Bus Monitor Log.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2381,7 +2247,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Read Raw Bus Monitor Log.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Read Raw Bus Monitor Log.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2395,10 +2261,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\1553 Component\Convert Raw Bus Monitor Log.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Convert Raw Bus Monitor Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA0F76FB1434FFBFC1B16A0B40F5774C</GUID>
+      <GUID>87E93C4964A57F60396B6ECD3B031EAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2430,7 +2296,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Dependencies\FPGA Interface\Close.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2444,7 +2310,7 @@ Please refer to the installed example code for more information on how to setup 
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Dependencies\FPGA Interface\Initialize.vi</Path>
+        <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2458,10 +2324,10 @@ Please refer to the installed example code for more information on how to setup 
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Windows\Dependencies\FPGA Interface\Initialize (Reference).vi</Path>
+        <Path>..\src\RealTime\Dependencies\FPGA Interface\Initialize (Reference).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>767BAFDD2CF840EB3BF8EF02EAD5E0AA</GUID>
+      <GUID>8A63EF876D77FF4306629CC12F64FEDD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
