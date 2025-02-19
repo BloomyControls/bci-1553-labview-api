@@ -472,10 +472,10 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Communication References.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/FPGA/Public/Type Defs/Communication References.ctl"/>
-						<Item Name="BCI-1553 References.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/FPGA/Public/Type Defs/BCI-1553 References.ctl"/>
-						<Item Name="BCI-1553 RealTime Interface.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/FPGA/Public/BCI-1553 RealTime Interface.vi"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="BCI-1553 RT Interface.lvlib" Type="Library" URL="../../../src/FPGA/BCI-1553 RT Interface.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Main" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -524,54 +524,10 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="1553 Component.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Component/1553 Component.lvclass/1553 Component.ctl"/>
-				<Item Name="1553 Component.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Component/1553 Component.lvclass"/>
-				<Item Name="1553 Session.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Session/1553 Session.lvclass/1553 Session.ctl"/>
-				<Item Name="1553 Session.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Session/1553 Session.lvclass"/>
-				<Item Name="1553 SubComponent.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 SubComponent/1553 SubComponent.lvclass"/>
-				<Item Name="Async Message Config.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Async Message Config.ctl"/>
-				<Item Name="Async Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/Async Message/Async Message.lvclass"/>
-				<Item Name="Bus Controller Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Controller/TypeDefs/Bus Controller Configuration.ctl"/>
-				<Item Name="Bus Controller Timeout.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Controller/TypeDefs/Bus Controller Timeout.ctl"/>
-				<Item Name="Bus Controller.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Controller/Bus Controller.lvclass"/>
-				<Item Name="Bus Monitor Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/TypeDefs/Bus Monitor Configuration.ctl"/>
-				<Item Name="Bus Monitor Record Requirement.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/TypeDefs/Bus Monitor Record Requirement.ctl"/>
-				<Item Name="Bus Monitor Timeout.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/TypeDefs/Bus Monitor Timeout.ctl"/>
-				<Item Name="Bus Monitor Timetag Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/TypeDefs/Bus Monitor Timetag Behavior.ctl"/>
-				<Item Name="Bus Monitor Timetag Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/TypeDefs/Bus Monitor Timetag Configuration.ctl"/>
-				<Item Name="Bus Monitor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/Bus Monitor.lvclass"/>
-				<Item Name="Command Config.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Command Config.ctl"/>
-				<Item Name="Command SubAddress.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Command SubAddress.ctl"/>
-				<Item Name="Command Terminal Address.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Command Terminal Address.ctl"/>
-				<Item Name="Command Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Command Type.ctl"/>
-				<Item Name="Command Word Count.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Command Word Count.ctl"/>
-				<Item Name="FPGA Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Dependencies/FPGA Interface/FPGA Interface.lvclass"/>
-				<Item Name="Initialize (Reference).vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Dependencies/FPGA Interface/Initialize (Reference).vi"/>
-				<Item Name="Initialize Async.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/Async Message/Initialize Async.vi"/>
-				<Item Name="Initialize Message.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/Message/Initialize Message.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Component/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Session/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Controller/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Bus Monitor/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Dependencies/FPGA Interface/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/Major Frame/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/Minor Frame/Initialize.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/Initialize.vi"/>
-				<Item Name="Major Frame.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/Major Frame/Major Frame.lvclass"/>
-				<Item Name="Message Config.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Message Config.ctl"/>
-				<Item Name="Message Control.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Message Control.ctl"/>
-				<Item Name="Mode Code 17 Sync Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/TypeDefs/Mode Code 17 Sync Configuration.ctl"/>
-				<Item Name="Read Components.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Session/Read Components.vi"/>
-				<Item Name="Read SubComponents.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Component/Read SubComponents.vi"/>
-				<Item Name="Remote Terminal.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/Remote Terminal.lvclass"/>
-				<Item Name="RT Command Config.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/TypeDefs/RT Command Config.ctl"/>
-				<Item Name="RT Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/TypeDefs/RT Configuration.ctl"/>
-				<Item Name="RT Timetag Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/TypeDefs/RT Timetag Configuration.ctl"/>
-				<Item Name="RT-RT Timeout.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Remote Terminal/TypeDefs/RT-RT Timeout.ctl"/>
-				<Item Name="Scaling Information.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Scaling Information.ctl"/>
-				<Item Name="Simplified Parameter Data Table.ctl" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/Frames &amp; Messages/TypeDefs/Simplified Parameter Data Table.ctl"/>
-				<Item Name="Write Components.vi" Type="VI" URL="/&lt;vilib&gt;/Bloomy/BCI-1553 Driver/RealTime/1553 Session/Write Components.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="BCI-1553 API.lvlib" Type="Library" URL="../../../src/RealTime/BCI-1553 API.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
