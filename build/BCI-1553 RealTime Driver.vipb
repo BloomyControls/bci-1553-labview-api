@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2018-04-13 13:24:18" Modified_Date="2025-02-21 14:29:04" Creator="JamesV" Comments="" ID="9c3651e20d8b5b165af6a3ab80952b30">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2018-04-13 13:24:18" Modified_Date="2025-05-02 11:28:12" Creator="JamesV" Comments="" ID="59836278b2dbbed373c549e00017902e">
   <Library_General_Settings>
     <Package_File_Name>Bloomy_BCI_1553_API</Package_File_Name>
-    <Library_Version>0.1.0.26</Library_Version>
+    <Library_Version>1.0.0.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -36,7 +36,15 @@ Please refer to the installed example code for more information on how to setup 
       <Copyright>Copyright (c) 2025, Bloomy Controls, Inc.</Copyright>
       <Packager>Bloomy</Packager>
       <URL>https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/1553b-c-series-module</URL>
-      <Release_Notes>Refactored several of the initialization clusters to remove various things that the end users/designers shouldn't have to interact with during use.</Release_Notes>
+      <Release_Notes>Issues Fixed (https://github.com/BloomyControls/bci-1553-labview-api):
+#1: Async Message Sends Incorrect Number of Words
+#2: Reading Async Data Always Returns Error
+#3: Reading/Writing Parameters Using Component API Errors if BM is Configured
+#4: Close Methods do Nothing on Error
+#6: Errors During Initialization Takes Too Long to Fail
+#7: Long Execution Time of Clean Up Method if Error
+#8: Document All API Flags/Options
+#9: Session Init Function May Not Report Errors</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -283,7 +291,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\Windows</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD52634DA14BE2A246DE1A66F217FD9B</GUID>
+      <GUID>49EFD3724594F365A2A750B68894B26D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -430,7 +438,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\Windows\Dependencies\FPGA Interface</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5621D548E9CA982703D875FC9AD13C0</GUID>
+      <GUID>491590B071A56F194508134E45091CD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -689,7 +697,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 Component\Read Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7CC7CFDBDB9DB8D24029C1CA0479BF3</GUID>
+      <GUID>C227019618C3E5FF7470D49CE6C7405B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -864,7 +872,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 Component\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB2A5A518E773278EF9A0CECE66FE369</GUID>
+      <GUID>0D78DA18A4D2AB5D72F55F7FF2C12B7E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1067,7 +1075,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 SubComponent\Read SubComponent Parameter - Raw.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1443C0A6A8E7B4F1B43BB104B3F25A3C</GUID>
+      <GUID>3DD709CBF61EFDF498E030833F793258</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1186,7 +1194,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Bus Controller\Read Async Raw Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E264565443AF14A9CFF4E49513C77767</GUID>
+      <GUID>A259279A48D97AC71DE0518CA10FD4BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1403,7 +1411,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 SubComponent\Retrieve SubComponent Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C9D321F4F95EC51FC02D25823B5B823</GUID>
+      <GUID>30BFE8956151B2D4CADEC6F85AE21A25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1508,7 +1516,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\Windows\Frames &amp; Messages\Async RT-RT Message</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4921AA7140DB4C348CC35204B0A26B6B</GUID>
+      <GUID>57152F6D6C5299942838DC94126F4E79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1683,7 +1691,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Remote Terminal\Read RT1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E60331F25F62919D662AFFCE4D0E87A8</GUID>
+      <GUID>3BFB2A09CD947A606BF776EA3749A5BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1732,7 +1740,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Frames &amp; Messages\Async Message\Update Parameter Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82AA7F78B00314A45085F70F95E8D36E</GUID>
+      <GUID>67AA4C8C5D9816A9C831A208B805A6DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1767,7 +1775,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Frames &amp; Messages\Async RT-RT Message\Initialize Async RT-RT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B8DADCF8FFA2AE20950CD8E276EC866</GUID>
+      <GUID>FC8F7ACECD319D0EC247DD77625F5D94</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1900,7 +1908,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Get All Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3A383AE3FE80975627B19114A876838</GUID>
+      <GUID>C3F22F9C8378F84224F9C184BCD42A3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1935,7 +1943,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Frames &amp; Messages\Message\Initialize Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>889EE4B1F52E94F2C9438A13A334F802</GUID>
+      <GUID>031A54C645D79A831F347372A128C8C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1984,7 +1992,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Frames &amp; Messages\Major Frame\Update Schedule.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8A986B4BC2CE8C27FBE4AA54ECAE995</GUID>
+      <GUID>00785F040CF64F8B7CE201FD508FA816</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2019,7 +2027,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Frames &amp; Messages\RT-RT Message\Initialize RT-RT Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE86C8DA0B86C048F3BE9E1211DE6B06</GUID>
+      <GUID>A383CA5F71A4DCEBF78E99C940EF5DFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2054,7 +2062,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 Component\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE46494E0F9515EB4E02032C8BDF9CF7</GUID>
+      <GUID>533A3D4178BD56127DFD6DEEA86DBA1B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2089,7 +2097,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\FPGA\Public\BCI-1553 RealTime Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1975B833A5CA83DA13A35877722EF49C</GUID>
+      <GUID>23CC292F6319F628BA9314A1E59FBF8C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2124,7 +2132,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 Component\Send Asynchronous Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62DAA94BF7B898F7BC7418DA126975CF</GUID>
+      <GUID>4AD8C46B4054BDD893D3C885381331AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2201,7 +2209,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 Component\Clear Tx Data Sent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05EE488728E951A19CEBFD5454C12B8B</GUID>
+      <GUID>97FA886260C8DFA31CD6E4BABD875FF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2264,7 +2272,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\1553 Component\Convert Raw Bus Monitor Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBE5908CFDBC9E171ABB2CB53D3EC6C8</GUID>
+      <GUID>7012D6194AAA4FF1BF1D58B26E0AB8AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2327,7 +2335,7 @@ Please refer to the installed example code for more information on how to setup 
         <Path>..\src\RealTime\Dependencies\FPGA Interface\Initialize (Reference).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F05CC6D91D7045DCFA68C98CB90D74C9</GUID>
+      <GUID>C2E0C1BD5CD5FAE0CC3506E64738F4DC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
